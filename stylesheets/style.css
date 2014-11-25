@@ -194,7 +194,7 @@ body {
 /* line 41, ../sass/style.scss */
 .main {
   height: 600px;
-  background-image: url("../images/street3.jpg");
+  background-image: url("../images/street.jpg");
   background-position: center;
   padding: 50px;
 }
@@ -310,7 +310,7 @@ a.signup {
   text-transform: capitalize;
   margin-bottom: 10px;
 }
-/* line 150, ../sass/style.scss */
+/* line 149, ../sass/style.scss */
 .why-choose-us ul li div p {
   text-align: left;
   color: #9b9b9b;
