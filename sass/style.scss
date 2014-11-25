@@ -1,2 +1,160 @@
 @import "compass/reset";
 @import "compass/css3";
+@import "icon.scss";
+
+.icon-pencil {
+  color: purple;
+}
+.icon-profile:before {
+  content: "\e601";
+}
+.icon-tag:before {
+  color: green;
+}
+.icon-barcode:before {
+  content: "\e603";
+}
+.icon-user {
+  color: DodgerBlue;
+}
+.icon-users:before {
+  content: "\e605";
+}
+.icon-rocket:before {
+  color: red;
+}
+.icon-numbered-list:before {
+  color: chocolate;
+}
+.icon-steam {
+  color: orange ;
+}
+
+
+
+body{
+  font-family:Arial;
+  color:white;
+  text-align: center;
+}
+
+.main {
+  height:600px;
+  background-image:url('../images/street3.jpg');
+  background-position:center;
+  padding: 50px;
+}
+
+
+.navigation {
+  margin: 0px 100px;
+  float: right;
+  color: white;
+
+  a {
+    margin:15px;
+    font-weight:lighter;
+    color:white;
+    text-decoration: none;
+  }
+}
+
+a.signup{
+  margin:20px;
+  padding:8px;
+  border:1px solid white;
+  border-radius:3px;
+}
+
+.center{
+  text-align: center;
+  width: 50%;
+  margin: 300px auto;
+
+  h2 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  p {
+    margin:10px auto 20px auto;
+  }
+
+  form {
+    width:80%;
+    margin:0 auto;
+  
+    ::-webkit-input-placeholder {color:white;}
+    input {
+
+      color: white;
+      height: 50px;
+      font-size: 20px;
+      border-style: none;
+      
+      &[type="text"] {
+        width: 73%;
+        padding: 0% 2%;
+        background-color: rgba(255,255,255,0.3);
+      }
+      &[type="submit"] {
+        width: 22%;
+        padding: 0px;
+        background-color: #67DDAB;
+      }
+    }
+  }
+}
+
+.why-choose-us {
+  background-color: #F4F3F1;
+
+  h2{
+    text-transform: uppercase;
+    color: #C4C6CB;
+    padding: 30px;
+    font-size: 30px;
+  }
+
+  ul {
+    padding: 20px 10%;
+
+    li{
+    background-color: #F4F3F1;
+    padding: 20px;
+    width:40%;
+    display: inline-block;
+    vertical-align: top;
+
+    i {
+      display: inline-block;
+      box-sizing: border-box;
+      font-size: 30px;
+      width: 30%;
+      vertical-align: top;
+    }
+
+    div {
+      width: 65%;
+      padding-right: 5%;
+      display: inline-block;
+      h3 {
+        text-align: left;
+        font-size: 30px;
+        color:#60677A;
+        text-transform: capitalize;
+        margin-bottom: 10px;
+      }
+
+
+      p{
+        text-align: left;
+        color:#9b9b9b;
+        font-size: 18px;
+        line-height: 150%;
+      }
+    }
+  } 
+}
+  
+}
