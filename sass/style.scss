@@ -6,19 +6,19 @@
   color: purple;
 }
 .icon-profile:before {
-  content: "\e601";
+  color:green;
 }
 .icon-tag:before {
   color: green;
 }
 .icon-barcode:before {
-  content: "\e603";
+  color:DodgerBlue;
 }
 .icon-user {
   color: DodgerBlue;
 }
 .icon-users:before {
-  content: "\e605";
+  color:orange;
 }
 .icon-rocket:before {
   color: red;
@@ -42,6 +42,7 @@ body{
   height:600px;
   background-image:url('../images/street.jpg');
   background-position:center;
+  background-size: 150%;
   padding: 50px;
 }
 
@@ -106,54 +107,301 @@ a.signup{
   }
 }
 
-.why-choose-us {
-  background-color: #F4F3F1;
+$gray_white :#F4F3F1;
+$border_color_larger_gray: #D9D9D9;
 
-  h2{
-    text-transform: uppercase;
-    color: #C4C6CB;
-    padding: 30px;
-    font-size: 30px;
-  }
+.how-it-works {
+  background-color: $gray_white;
+  border-bottom: solid 1px $border_color_larger_gray;
+  padding: 0 100px 100px 100px;
 
-  ul {
-    padding: 20px 10%;
-
-    li{
-    background-color: #F4F3F1;
-    padding: 20px;
-    width:40%;
-    display: inline-block;
-    vertical-align: top;
-
-    i {
-      display: inline-block;
-      box-sizing: border-box;
-      font-size: 30px;
-      width: 30%;
-      vertical-align: top;
-    }
+  .data {
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 2px;
+    padding:1px;
+    position: relative;
+    top: -70px;
+    margin-bottom: -50px;
 
     div {
-      width: 65%;
-      padding-right: 5%;
+      width: 25%;
       display: inline-block;
-      h3 {
-        text-align: left;
+      box-sizing:border-box;
+      
+      background-color: $gray_white;
+      border: 1px solid $border_color_larger_gray;
+      border-right: none;
+      
+    h1 {
+      padding:40px 0px 20px;
+      color: #60677A;
+      font-weight: bold;
+    }
+
+    h2 {
+      font-size: 18px;
+      padding-bottom: 20px;
+      font-weight: bold;
+      color: #60677A;
+    }
+    }
+
+    .last {
+      border-right: 1px solid $border_color_larger_gray;
+    }
+  }
+
+  h1 {
+      text-transform: uppercase;
+      color: #C4C6CB;
+      padding: 50px;
+      font-size: 30px;
+    }
+
+    hr {
+      border-top: none;
+     border-bottom: 2px solid $border_color_larger_gray;
+     height: 0px;
+     width: 66%;
+     margin-bottom: -30px; 
+    }
+  
+  ul li {
+
+    display: inline-block;
+    width: 33.3%;
+    vertical-align: top;
+
+
+    i {
+        display: inline-block;
+        box-sizing: border-box;
+        margin: 50px;
+        font-size: 100px;
+        width: 30%;
+        vertical-align: top;
+      }
+    
+    h2 {
+          margin: 0 auto;
+          font-size: 30px;
+          color:#60677A;
+          text-transform: capitalize;
+          margin-bottom: 10px;
+        }
+
+    p {
+      margin-top: 20px;
+      color:#9b9b9b;
+    }
+
+
+    .number {
+      background-color: $gray_white;
+      color:#60677A;
+      font-weight: bold;
+      font-size: 30px;
+      border: solid $border_color_larger_gray;
+      width: 30px;
+      margin: 0px auto;
+      padding: 13px;
+      height: 30px;
+      border-radius: 50%;
+    }
+    
+  }
+}
+
+
+.why-choose-us {
+    background-color: $gray_white;
+
+    h2{
+      text-transform: uppercase;
+      color: #C4C6CB;
+      padding: 30px;
+      font-size: 30px;
+    }
+
+    ul {
+      padding: 20px 10%;
+
+      li{
+      background-color: #F4F3F1;
+      padding: 20px;
+      width:40%;
+      display: inline-block;
+      vertical-align: top;
+
+      i {
+        display: inline-block;
+        box-sizing: border-box;
         font-size: 30px;
-        color:#60677A;
-        text-transform: capitalize;
-        margin-bottom: 10px;
+        width: 30%;
+        vertical-align: top;
       }
 
-      p{
-        text-align: left;
-        color:#9b9b9b;
-        font-size: 18px;
-        line-height: 150%;
+      div {
+        width: 65%;
+        padding-right: 5%;
+        display: inline-block;
+        h3 {
+          text-align: left;
+          font-size: 30px;
+          color:#60677A;
+          text-transform: capitalize;
+          margin-bottom: 10px;
+        }
+
+        p{
+          text-align: left;
+          color:#9b9b9b;
+          font-size: 18px;
+          line-height: 150%;
+        }
+      }
+    } 
+  }
+  
+}
+
+.people {
+  color: #60677A;
+
+  .Testimonials {
+    background-color: #60677A;
+    color: white;
+  }
+  
+  a{
+    margin: 70px 0;
+    color: #60677A;
+    width:12%;
+    display: inline-block;
+    padding: 10px;
+    border: solid 2px #60677A;
+    text-decoration: none;
+  } 
+
+  p {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+
+  h1 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+   h2 {
+    color:#C4C6CB;
+   } 
+
+   ul {
+    li {
+      display: inline-block;
+
+      .middle {
+        border: solid #C4C6CB 2px;
+        opacity: 1;
+      }
+
+      img {
+        opacity: 0.5;
+        padding: 6px;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin: 30px;
       }
     }
-  } 
+   }
 }
+
+.bottom-search{
   
+  padding: 120px 20%;
+  background-image: url(../images/street3.jpg);
+  background-position:center;
+  p {
+    display: inline-block;
+    color: white;
+    width: 30%;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+    vertical-align: top;
+    padding: 10px 0;
+  }
+
+  form {
+    vertical-align: top;
+    width: 70%;
+    display: inline-block;
+
+::-webkit-input-placeholder {color:gray;}
+    input {
+
+      color: white;
+      height: 50px;
+      font-size: 20px;
+      border-style: none;
+
+      &[type="text"] {
+
+        width: 73%;
+        padding: 0% 2%;
+        color: black;
+        border-radius: 2px 0px 0px 2px;
+      }
+
+    &[type="submit"] {
+        width: 22%;
+        padding: 0px;
+        background-color: #67DDAB;
+        border-radius: 0px 2px 2px 0px;
+        
+
+     }
+    }
+
+  }
+}
+
+footer {
+  padding: 40px;
+  background-color: $gray_white;
+
+  .links {
+    display: inline-block;
+    width:60%;
+    a {
+      text-decoration: none;
+      font-size: 20px;
+      padding: 5px;
+      color: #B5B5B5;
+    }
+  }
+
+  .social {
+    display: inline-block;
+    width: 20%;
+    margin-left: 20%;
+    i {
+      font-size: 20px;
+      margin: 10px;
+
+    }
+
+    .icon-facebook {
+      color:#4f75b5;
+      
+    }
+    .icon-twitter {
+      color:#1fb5e8;
+    }
+  }
+
 }
