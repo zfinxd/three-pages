@@ -1,0 +1,615 @@
+/* line 5, ../../../.rvm/gems/ruby-2.0.0-p451/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../.rvm/gems/ruby-2.0.0-p451/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../.rvm/gems/ruby-2.0.0-p451/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../.rvm/gems/ruby-2.0.0-p451/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../.rvm/gems/ruby-2.0.0-p451/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../.rvm/gems/ruby-2.0.0-p451/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../.rvm/gems/ruby-2.0.0-p451/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../.rvm/gems/ruby-2.0.0-p451/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../.rvm/gems/ruby-2.0.0-p451/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?-qfm1y0");
+  src: url("../fonts/icomoon.eot?#iefix-qfm1y0") format("embedded-opentype"), url("../fonts/icomoon.woff?-qfm1y0") format("woff"), url("../fonts/icomoon.ttf?-qfm1y0") format("truetype"), url("../fonts/icomoon.svg?-qfm1y0#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 12, ../sass/icon.scss */
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 26, ../sass/icon.scss */
+.icon-pencil:before {
+  content: "\e600";
+}
+
+/* line 29, ../sass/icon.scss */
+.icon-profile:before {
+  content: "\e601";
+}
+
+/* line 32, ../sass/icon.scss */
+.icon-tag:before {
+  content: "\e602";
+}
+
+/* line 35, ../sass/icon.scss */
+.icon-barcode:before {
+  content: "\e603";
+}
+
+/* line 38, ../sass/icon.scss */
+.icon-user:before {
+  content: "\e604";
+}
+
+/* line 41, ../sass/icon.scss */
+.icon-users:before {
+  content: "\e605";
+}
+
+/* line 44, ../sass/icon.scss */
+.icon-rocket:before {
+  content: "\e606";
+}
+
+/* line 47, ../sass/icon.scss */
+.icon-numbered-list:before {
+  content: "\e607";
+}
+
+/* line 50, ../sass/icon.scss */
+.icon-steam:before {
+  content: "\e608";
+}
+
+/* line 53, ../sass/icon.scss */
+.icon-mail:before {
+  content: "\e60b";
+}
+
+/* line 56, ../sass/icon.scss */
+.icon-feather:before {
+  content: "\e60c";
+}
+
+/* line 59, ../sass/icon.scss */
+.icon-forward:before {
+  content: "\e60d";
+}
+
+/* line 62, ../sass/icon.scss */
+.icon-share:before {
+  content: "\e60e";
+}
+
+/* line 65, ../sass/icon.scss */
+.icon-star:before {
+  content: "\e60f";
+}
+
+/* line 68, ../sass/icon.scss */
+.icon-thumbsup:before {
+  content: "\e610";
+}
+
+/* line 71, ../sass/icon.scss */
+.icon-search:before {
+  content: "\e611";
+}
+
+/* line 74, ../sass/icon.scss */
+.icon-bell:before {
+  content: "\e612";
+}
+
+/* line 77, ../sass/icon.scss */
+.icon-link:before {
+  content: "\e613";
+}
+
+/* line 80, ../sass/icon.scss */
+.icon-plus:before {
+  content: "\e614";
+}
+
+/* line 83, ../sass/icon.scss */
+.icon-cycle:before {
+  content: "\e615";
+}
+
+/* line 86, ../sass/icon.scss */
+.icon-resize-enlarge:before {
+  content: "\e616";
+}
+
+/* line 89, ../sass/icon.scss */
+.icon-ellipsis:before {
+  content: "\e617";
+}
+
+/* line 92, ../sass/icon.scss */
+.icon-twitter:before {
+  content: "\e609";
+}
+
+/* line 95, ../sass/icon.scss */
+.icon-facebook:before {
+  content: "\e60a";
+}
+
+/* line 15, ../sass/second.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 20, ../sass/second.scss */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 62.5%;
+  text-align: center;
+  color: #58575F;
+  background-color: #F2EEE8;
+}
+/* line 27, ../sass/second.scss */
+body header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 8em;
+  background-color: #FFFAF2;
+  box-shadow: 2px 2px 1px #CCCCCC;
+}
+/* line 37, ../sass/second.scss */
+body header nav, body header div {
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 42, ../sass/second.scss */
+body header nav {
+  text-align: left;
+  width: 24%;
+  font-size: 2em;
+}
+/* line 46, ../sass/second.scss */
+body header nav .write {
+  border-right: 1px solid #CCCCCC;
+  padding: 1em;
+}
+/* line 50, ../sass/second.scss */
+body header nav a {
+  display: inline-block;
+  vertical-align: top;
+  color: #58575F;
+  border-radius: 50%;
+  border: 1px solid #CCCCCC;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 19px 0 19px 19px;
+}
+/* line 60, ../sass/second.scss */
+body header nav .icon-feather {
+  color: #FFFAF2;
+  background-color: #81A9CA;
+  border: none;
+  padding: 10px;
+  margin: 0px;
+}
+/* line 68, ../sass/second.scss */
+body header .logo {
+  width: 52%;
+  margin: 2em 0;
+}
+/* line 71, ../sass/second.scss */
+body header .logo .icon-twitter {
+  font-size: 4em;
+  color: #81A9CA;
+}
+/* line 77, ../sass/second.scss */
+body header .search {
+  width: 24%;
+  text-align: left;
+}
+/* line 80, ../sass/second.scss */
+body header .search .user {
+  display: inline-block;
+  margin: 2em 3em 2em 2em;
+  padding: 2em;
+  background-image: url("../images/dog.jpg");
+  background-size: 100%;
+  border-radius: 50%;
+}
+/* line 89, ../sass/second.scss */
+body header .search form {
+  width: 60%;
+  height: 4em;
+  margin: 19px 1em;
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid #CCCCCC;
+  border-radius: 2em;
+}
+/* line 97, ../sass/second.scss */
+body header .search form ::-webkit-input-placeholder {
+  color: #CCCCCC;
+  font-weight: lighter;
+}
+/* line 98, ../sass/second.scss */
+body header .search form input {
+  vertical-align: top;
+  margin: 10px;
+  padding: 0 1em;
+  width: 50%;
+  font-size: 18px;
+  border: none;
+  background-color: #FFFAF2;
+}
+/* line 110, ../sass/second.scss */
+body header .search form .icon-search {
+  display: inline-block;
+  display: top;
+  font-size: 2em;
+  color: #58575F;
+  margin: 10px;
+}
+/* line 122, ../sass/second.scss */
+body aside {
+  width: 24%;
+  color: white;
+}
+/* line 128, ../sass/second.scss */
+body aside.left {
+  background-color: #81A9CA;
+  margin: 8em 0 0 0;
+  float: left;
+}
+/* line 134, ../sass/second.scss */
+body aside.left .info .avatar {
+  width: 30%;
+  border-radius: 50%;
+  margin: 6em auto 3em auto;
+}
+/* line 139, ../sass/second.scss */
+body aside.left .info h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 1em;
+  font-weight: lighter;
+}
+/* line 145, ../sass/second.scss */
+body aside.left .info p {
+  font-size: 2em;
+  font-weight: lighter;
+  line-height: 1.5;
+  margin: 0 1em;
+}
+/* line 152, ../sass/second.scss */
+body aside.left .info a {
+  color: white;
+  display: inline-block;
+}
+/* line 158, ../sass/second.scss */
+body aside.left .info .main-page {
+  font-size: 2em;
+  font-weight: lighter;
+  margin: 2em auto 1.5em;
+}
+/* line 165, ../sass/second.scss */
+body aside.left .follow {
+  font-size: 2em;
+  padding: 0.5em 3em;
+  margin-bottom: 2em;
+  background-color: #6D95B6;
+  border-radius: 2em;
+}
+/* line 173, ../sass/second.scss */
+body aside.left .images {
+  overflow: auto;
+}
+/* line 175, ../sass/second.scss */
+body aside.left .images img {
+  width: 33.33%;
+  float: left;
+}
+/* line 182, ../sass/second.scss */
+body aside.left .activities {
+  text-align: left;
+  font-size: 2em;
+  padding: 2em 0 4em 1em;
+}
+/* line 186, ../sass/second.scss */
+body aside.left .activities h1 {
+  font-weight: lighter;
+  margin-bottom: 1em;
+}
+/* line 191, ../sass/second.scss */
+body aside.left .activities li {
+  color: #6D95B6;
+  margin-bottom: 1em;
+  line-height: 1.2;
+}
+/* line 195, ../sass/second.scss */
+body aside.left .activities li a {
+  color: white;
+  text-decoration: underline;
+}
+/* line 204, ../sass/second.scss */
+body aside.right {
+  margin: -16em 0 0 0;
+  background-color: #FFFAF2;
+  float: right;
+  margin-top: 8em;
+}
+/* line 211, ../sass/second.scss */
+body aside.right section {
+  padding: 2em 0 0 2em;
+  text-align: left;
+  font-weight: lighter;
+  color: #58575F;
+  font-size: 2em;
+}
+/* line 220, ../sass/second.scss */
+body aside.right .trend h1 {
+  text-transform: uppercase;
+}
+/* line 223, ../sass/second.scss */
+body aside.right .trend ul {
+  margin: 1em 0;
+}
+/* line 225, ../sass/second.scss */
+body aside.right .trend ul li {
+  margin-bottom: 0.2em;
+}
+/* line 227, ../sass/second.scss */
+body aside.right .trend ul li a {
+  color: #81A9CA;
+  text-transform: capitalize;
+}
+/* line 235, ../sass/second.scss */
+body aside.right .who-to-follow {
+  padding: 2em 3em 4em 2em;
+}
+/* line 237, ../sass/second.scss */
+body aside.right .who-to-follow h1 {
+  text-transform: uppercase;
+  display: inline;
+}
+/* line 242, ../sass/second.scss */
+body aside.right .who-to-follow .more {
+  float: right;
+  color: #81A9CA;
+}
+/* line 248, ../sass/second.scss */
+body aside.right .who-to-follow ul li {
+  margin: 1em 0;
+}
+/* line 250, ../sass/second.scss */
+body aside.right .who-to-follow ul li .avatar {
+  display: inline-block;
+  padding: 1em;
+  border-radius: 50%;
+  float: left;
+  margin-right: 1em;
+  background-size: 100%;
+}
+/* line 257, ../sass/second.scss */
+body aside.right .who-to-follow ul li .avatar.jobs {
+  background-image: url("../images/jobs.png");
+}
+/* line 261, ../sass/second.scss */
+body aside.right .who-to-follow ul li .avatar.luo {
+  background-image: url("../images/luo.png");
+}
+/* line 265, ../sass/second.scss */
+body aside.right .who-to-follow ul li .avatar.lei {
+  background-image: url("../images/lei.png");
+}
+/* line 269, ../sass/second.scss */
+body aside.right .who-to-follow ul li .add {
+  float: right;
+  color: #58575F;
+  padding: 0 3px;
+  border: 1px solid #CCCCCC;
+}
+/* line 275, ../sass/second.scss */
+body aside.right .who-to-follow ul li .name {
+  display: inline-block;
+  width: 60%;
+  color: #58575F;
+  font-size: 16px;
+}
+/* line 281, ../sass/second.scss */
+body aside.right .who-to-follow ul li span {
+  color: #CCCCCC;
+  font-size: 16px;
+}
+/* line 294, ../sass/second.scss */
+body .center {
+  width: 44%;
+  float: left;
+  margin-left: 4%;
+}
+/* line 300, ../sass/second.scss */
+body .data {
+  margin-top: 12em;
+  margin-bottom: 3em;
+  background-color: #FFFAF2;
+}
+/* line 305, ../sass/second.scss */
+body .data li:hover {
+  border-bottom: 0.5em solid #81A9CA;
+}
+/* line 309, ../sass/second.scss */
+body .data li {
+  border-bottom: 0.5em solid #FFFAF2;
+  padding: 2em 0;
+  width: 25%;
+  float: left;
+}
+/* line 313, ../sass/second.scss */
+body .data li p {
+  font-size: 18px;
+}
+/* line 315, ../sass/second.scss */
+body .data li p.item {
+  font-weight: lighter;
+  color: #CCCCCC;
+  margin-bottom: 0.5em;
+}
+/* line 320, ../sass/second.scss */
+body .data li p.num {
+  font-weight: bold;
+}
+/* line 331, ../sass/second.scss */
+body .posts {
+  background-color: #FFFAF2;
+  font-size: 1.6em;
+  color: #CCCCCC;
+}
+/* line 335, ../sass/second.scss */
+body .posts article {
+  text-align: left;
+  padding: 3em 5%;
+  border-bottom: 1px #CCCCCC solid;
+  overflow: auto;
+}
+/* line 340, ../sass/second.scss */
+body .posts article .avatar {
+  padding: 20px;
+  border-radius: 50%;
+  background-size: 100%;
+  float: left;
+}
+/* line 347, ../sass/second.scss */
+body .posts article .post {
+  display: inline-block;
+  float: left;
+  margin-left: 1em;
+  width: 90%;
+}
+/* line 352, ../sass/second.scss */
+body .posts article .post .before {
+  margin-bottom: 0.5em;
+}
+/* line 355, ../sass/second.scss */
+body .posts article .post .before .name {
+  color: #58575F;
+  font-weight: bold;
+  margin-right: 0.5em;
+}
+/* line 360, ../sass/second.scss */
+body .posts article .post .before .account {
+  color: #CCCCCC;
+  font-weight: lighter;
+}
+/* line 364, ../sass/second.scss */
+body .posts article .post .before .time {
+  float: right;
+  font-weight: lighter;
+}
+/* line 369, ../sass/second.scss */
+body .posts article .post p {
+  color: #58575F;
+  line-height: 1.2;
+  font-weight: lighter;
+}
+/* line 374, ../sass/second.scss */
+body .posts article .post .after {
+  margin-top: 1em;
+}
+/* line 376, ../sass/second.scss */
+body .posts article .post .after a {
+  color: #CCCCCC;
+  margin-right: 0.5em;
+  font-size: 20px;
+}
+/* line 381, ../sass/second.scss */
+body .posts article .post .after .icon-resize-enlarge {
+  float: right;
+  margin-right: 0;
+}
+/* line 386, ../sass/second.scss */
+body .posts article .post img {
+  width: 100%;
+}
+/* line 392, ../sass/second.scss */
+body .posts article .me {
+  background-image: url(../images/dog.jpg);
+}
+/* line 395, ../sass/second.scss */
+body .posts article .jobs {
+  background-image: url(../images/jobs.png);
+}
+
+/* line 402, ../sass/second.scss */
+::-webkit-input-placeholder {
+  color: #CCCCCC;
+  font-weight: lighter;
+}

@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('../fonts/icomoon.eot?wyh0rg');
-	src:url('../fonts/icomoon.eot?#iefixwyh0rg') format('embedded-opentype'),
-		url('../fonts/icomoon.woff?wyh0rg') format('woff'),
-		url('../fonts/icomoon.ttf?wyh0rg') format('truetype'),
-		url('../fonts/icomoon.svg?wyh0rg#icomoon') format('svg');
+	src:url('../fonts/icomoon.eot?-qfm1y0');
+	src:url('../fonts/icomoon.eot?#iefix-qfm1y0') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?-qfm1y0') format('woff'),
+		url('../fonts/icomoon.ttf?-qfm1y0') format('truetype'),
+		url('../fonts/icomoon.svg?-qfm1y0#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -50,10 +50,48 @@
 .icon-steam:before {
 	content: "\e608";
 }
+.icon-mail:before {
+	content: "\e60b";
+}
+.icon-feather:before {
+	content: "\e60c";
+}
+.icon-forward:before {
+	content: "\e60d";
+}
+.icon-share:before {
+	content: "\e60e";
+}
+.icon-star:before {
+	content: "\e60f";
+}
+.icon-thumbsup:before {
+	content: "\e610";
+}
+.icon-search:before {
+	content: "\e611";
+}
+.icon-bell:before {
+	content: "\e612";
+}
+.icon-link:before {
+	content: "\e613";
+}
+.icon-plus:before {
+	content: "\e614";
+}
+.icon-cycle:before {
+	content: "\e615";
+}
+.icon-resize-enlarge:before {
+	content: "\e616";
+}
+.icon-ellipsis:before {
+	content: "\e617";
+}
 .icon-twitter:before {
 	content: "\e609";
 }
 .icon-facebook:before {
 	content: "\e60a";
 }
-
