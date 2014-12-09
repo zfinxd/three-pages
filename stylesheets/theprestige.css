@@ -204,20 +204,20 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   content: "\e60a";
 }
 
-/* line 15, ../sass/theprestige.scss */
+/* line 16, ../sass/theprestige.scss */
 a {
   text-decoration: none;
 }
 
-/* line 19, ../sass/theprestige.scss */
+/* line 20, ../sass/theprestige.scss */
 body {
   font-family: courier;
   font-size: 62.5%;
   text-align: center;
-  color: #58575F;
+  color: #777777;
   background-color: #F2EEE8;
 }
-/* line 27, ../sass/theprestige.scss */
+/* line 28, ../sass/theprestige.scss */
 body .hero {
   height: 85em;
   background-image: url(../images/prestige/hero.png);
@@ -225,39 +225,39 @@ body .hero {
   background-size: 100%;
   text-transform: uppercase;
   padding: 1px 0 1px 0;
-  border-bottom: 1px solid #58575F;
+  border-bottom: 1px solid #777777;
 }
-/* line 35, ../sass/theprestige.scss */
+/* line 36, ../sass/theprestige.scss */
 body .hero h2 {
   margin-top: 670px;
   margin-bottom: 0px;
   font-size: 2em;
 }
-/* line 40, ../sass/theprestige.scss */
+/* line 41, ../sass/theprestige.scss */
 body .hero h1 {
   font-size: 5em;
-  color: white;
+  color: #eeeeee;
 }
-/* line 41, ../sass/theprestige.scss */
+/* line 42, ../sass/theprestige.scss */
 body .hero h1 span {
   font-weight: lighter;
-  color: #58575F;
+  color: #777777;
   padding-right: 20px;
 }
-/* line 51, ../sass/theprestige.scss */
+/* line 52, ../sass/theprestige.scss */
 body .cast {
   background: #000000;
   padding: 0 2% 10em;
   overflow: auto;
-  border-bottom: 1px solid #58575F;
+  border-bottom: 1px solid #777777;
 }
-/* line 56, ../sass/theprestige.scss */
+/* line 57, ../sass/theprestige.scss */
 body .cast h1 {
   padding: 1.5em 0;
   font-size: 5em;
   font-family: courier;
 }
-/* line 62, ../sass/theprestige.scss */
+/* line 63, ../sass/theprestige.scss */
 body .cast .person {
   background: #000000;
   float: left;
@@ -265,49 +265,49 @@ body .cast .person {
   padding: 0 2%;
   width: 25%;
 }
-/* line 69, ../sass/theprestige.scss */
+/* line 70, ../sass/theprestige.scss */
 body .cast .person .name {
-  color: white;
+  color: #eeeeee;
   font-size: 2em;
   padding-bottom: 2em;
   font-weight: lighter;
   font-family: courier;
 }
-/* line 76, ../sass/theprestige.scss */
+/* line 77, ../sass/theprestige.scss */
 body .cast .person .picture {
   height: 43em;
   background-size: 100%;
   background-position: center;
   background-repeat: none;
 }
-/* line 83, ../sass/theprestige.scss */
+/* line 84, ../sass/theprestige.scss */
 body .cast .person .jackman {
   background-image: url(../images/prestige/jackman2.png);
 }
-/* line 87, ../sass/theprestige.scss */
+/* line 89, ../sass/theprestige.scss */
 body .cast .person .bale {
   background-image: url(../images/prestige/bale2.png);
 }
-/* line 91, ../sass/theprestige.scss */
+/* line 96, ../sass/theprestige.scss */
 body .cast .person .caine {
   background-image: url(../images/prestige/caine2.png);
 }
-/* line 95, ../sass/theprestige.scss */
+/* line 100, ../sass/theprestige.scss */
 body .cast .person .johansson {
   background-image: url(../images/prestige/johansson2.png);
 }
-/* line 101, ../sass/theprestige.scss */
+/* line 106, ../sass/theprestige.scss */
 body .lines {
   background: #000000;
-  border-bottom: 1px solid #58575F;
+  border-bottom: 1px solid #777777;
   font-family: courier;
 }
-/* line 105, ../sass/theprestige.scss */
+/* line 110, ../sass/theprestige.scss */
 body .lines h1 {
   padding: 1.5em 0;
   font-size: 5em;
 }
-/* line 110, ../sass/theprestige.scss */
+/* line 115, ../sass/theprestige.scss */
 body .lines div {
   width: 70%;
   margin: 0 auto 10em;
@@ -315,88 +315,88 @@ body .lines div {
   background-size: 100%;
   position: relative;
 }
-/* line 116, ../sass/theprestige.scss */
+/* line 121, ../sass/theprestige.scss */
 body .lines div p {
-  color: white;
+  color: #eeeeee;
   font-size: 2em;
 }
-/* line 122, ../sass/theprestige.scss */
+/* line 127, ../sass/theprestige.scss */
 body .lines .magic {
   background-image: url(../images/prestige/magic.jpg);
 }
-/* line 124, ../sass/theprestige.scss */
+/* line 129, ../sass/theprestige.scss */
 body .lines .magic p {
   width: 40%;
   position: absolute;
   right: 100px;
   top: 20px;
 }
-/* line 133, ../sass/theprestige.scss */
+/* line 138, ../sass/theprestige.scss */
 body .lines .sacrifice {
   background-image: url(../images/prestige/sacrifice.jpg);
 }
-/* line 135, ../sass/theprestige.scss */
+/* line 140, ../sass/theprestige.scss */
 body .lines .sacrifice p {
   width: 40%;
   position: absolute;
   left: 60px;
   bottom: 20px;
 }
-/* line 145, ../sass/theprestige.scss */
+/* line 150, ../sass/theprestige.scss */
 body .lines .scream {
   background-image: url(../images/prestige/scream.jpg);
 }
-/* line 147, ../sass/theprestige.scss */
+/* line 152, ../sass/theprestige.scss */
 body .lines .scream p {
   width: 40%;
   position: absolute;
   left: 60px;
   bottom: 150px;
 }
-/* line 156, ../sass/theprestige.scss */
+/* line 161, ../sass/theprestige.scss */
 body .lines .obsession {
   background-image: url(../images/prestige/obsession.jpg);
 }
-/* line 158, ../sass/theprestige.scss */
+/* line 163, ../sass/theprestige.scss */
 body .lines .obsession p {
   width: 40%;
   position: absolute;
   left: 60px;
   top: 80px;
 }
-/* line 167, ../sass/theprestige.scss */
+/* line 172, ../sass/theprestige.scss */
 body .lines .watching {
   background-image: url(../images/prestige/watching.jpg);
 }
-/* line 169, ../sass/theprestige.scss */
+/* line 174, ../sass/theprestige.scss */
 body .lines .watching p {
   width: 40%;
   position: absolute;
   left: 60px;
   bottom: 100px;
 }
-/* line 179, ../sass/theprestige.scss */
+/* line 184, ../sass/theprestige.scss */
 body .director {
   position: relative;
   background-color: #000000;
   height: 40em;
 }
-/* line 184, ../sass/theprestige.scss */
+/* line 189, ../sass/theprestige.scss */
 body .director h1 {
   position: absolute;
   top: 150px;
-  left: 270px;
+  left: 290px;
   padding: 0.3em 0;
   font-size: 6em;
-  color: white;
+  color: #eeeeee;
   z-index: 1;
 }
-/* line 186, ../sass/theprestige.scss */
+/* line 191, ../sass/theprestige.scss */
 body .director h1 span {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: lighter;
 }
-/* line 201, ../sass/theprestige.scss */
+/* line 206, ../sass/theprestige.scss */
 body .director div {
   float: left;
   width: 20%;
@@ -404,38 +404,38 @@ body .director div {
   background-color: #000000;
   background-size: 100%;
   background-position: center;
-  opacity: 0.4;
+  opacity: 0.6;
 }
-/* line 209, ../sass/theprestige.scss */
+/* line 214, ../sass/theprestige.scss */
 body .director div h2 {
-  color: white;
+  color: #eeeeee;
   padding-top: 330px;
   font-size: 2em;
   text-transform: capitalize;
 }
-/* line 216, ../sass/theprestige.scss */
+/* line 221, ../sass/theprestige.scss */
 body .director div h3 {
   padding-top: 10px;
   font-size: 1.5em;
-  color: white;
+  color: #eeeeee;
 }
-/* line 223, ../sass/theprestige.scss */
+/* line 228, ../sass/theprestige.scss */
 body .director .interstellar {
   background-image: url(../images/prestige/interstellar.jpg);
 }
-/* line 227, ../sass/theprestige.scss */
+/* line 232, ../sass/theprestige.scss */
 body .director .the_dark_knight_rises {
   background-image: url(../images/prestige/the_dark_knight_rises.jpg);
 }
-/* line 231, ../sass/theprestige.scss */
+/* line 236, ../sass/theprestige.scss */
 body .director .inception {
   background-image: url(../images/prestige/inception.jpg);
 }
-/* line 235, ../sass/theprestige.scss */
+/* line 240, ../sass/theprestige.scss */
 body .director .the_dark_knight {
   background-image: url(../images/prestige/the_dark_knight.jpg);
 }
-/* line 238, ../sass/theprestige.scss */
+/* line 243, ../sass/theprestige.scss */
 body .director .batman_begins {
   background-image: url(../images/prestige/batman_begins.jpg);
 }

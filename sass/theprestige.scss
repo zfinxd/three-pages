@@ -3,9 +3,10 @@
 @import "icon.scss";
 
 $text-blue:	#6D95B6;
-$text-color: #58575F;
+$text-color: #777777;
 $body-color: #F2EEE8;
 $gray-text-color: #C6C1B0;
+$brighter-text:#eeeeee;
 
 $d_gray:#CCCCCC;
 $theme_blue:#81A9CA;
@@ -44,7 +45,7 @@ body {
 				padding-right:20px;
 			}
 			font-size: 5em;
-			color: white;
+			color: $brighter-text;
 		}
 	}
 
@@ -67,7 +68,7 @@ body {
 			width: 25%; 
 
 			.name {
-				color: white;
+				color: $brighter-text;
 				font-size: 2em;
 				padding-bottom: 2em;
 				font-weight: lighter;
@@ -82,14 +83,18 @@ body {
 
 			.jackman {
 				background-image: url(../images/prestige/jackman2.png);
+
 			}
 
 			.bale {
 				background-image: url(../images/prestige/bale2.png);
+				// &:hover {
+				// 	background-image: url(../images/prestige/bale.png);					
+				// }
 			}
 
 			.caine {
-				background-image: url(../images/prestige/caine2.png);	
+				background-image: url(../images/prestige/caine2.png);
 			}
 
 			.johansson {
@@ -114,7 +119,7 @@ body {
 			background-size: 100%;
 			position: relative;
 			p {
-				color:white;
+				color:$brighter-text;
 				font-size: 2em;
 			}
 		}
@@ -185,16 +190,16 @@ body {
 
 			span {
 				// font-family: helvetica;
-				font-size: 40px;
+				font-size: 35px;
 				font-weight: lighter;
 			}
 
 			position: absolute;
 			top: 150px;
-			left: 270px;
+			left: 290px;
 			padding: 0.3em 0;
 			font-size: 6em;
-			color: white;
+			color: $brighter-text;
 			z-index: 1;
 		}
 
@@ -205,9 +210,9 @@ body {
 			background-color: #000000;
 			background-size: 100%;
 			background-position: center;
-			opacity: 0.4;
+			opacity: 0.6;
 			h2 {
-				color:white;
+				color:$brighter-text;
 				padding-top: 330px;
 				font-size: 2em;	
 				text-transform: capitalize;
@@ -216,7 +221,7 @@ body {
 			h3 {
 				padding-top: 10px;
 				font-size: 1.5em;
-				color:white;
+				color:$brighter-text;
 			}
 		}
 
