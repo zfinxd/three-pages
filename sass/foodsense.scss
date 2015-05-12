@@ -1,0 +1,283 @@
+@import "compass/reset";
+@import "compass/css3";
+@import "icon.scss";
+
+$dark-gray: #4D4E59;
+$f-gray:#FCF9F4;
+$b-gray: #b8b8b8;
+$e-gray:#e8e8e8;
+$green:#91D0B1;
+$yellow:#FFCD62;
+$blue:#80A8CC;
+$dark-green:#7CB69A;
+$dark-yellow:#EABC5B;
+$dark-blue:#6D91B1;
+
+$theme-green: #35AB97;
+$theme-green-light: #EFF8F7;
+$theme-green-as-background:#D9EFEC;
+
+$theme-font:'Amatic SC', cursive;
+
+body {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: $theme-green;
+}
+
+
+
+.main-container {
+	padding: 4em 1px;
+	display: inline-block;
+	text-align: left;
+}
+
+
+
+aside {
+	width: 170px;
+	margin-right: 50px;
+	float:left;
+
+	.home-link {
+		.logo {
+			max-width: 150px;
+		}
+	}
+
+	.navigation {
+		margin-top: 20px;
+		margin-left: 10px;
+
+		.navi-link {
+			line-height: 45px;
+			font-style: italic;
+			@extend .headline;
+
+			.navi-icon {
+				color: black;
+				vertical-align: middle;
+				font-size: 30px;
+				margin-right: 0.5em;
+			}
+		}
+
+		
+	}
+
+	.social-links {
+		margin-top: 50px;
+		margin-left: 10px;
+
+		.social-link {
+			margin-bottom: 35px;
+
+			.social-link-name {
+				font-size: 16px;
+				text-transform: uppercase;
+				padding-bottom: 5px;
+				border-bottom: 1px dashed $e-gray;
+				margin-bottom: 15px;
+			}
+
+			.social-link-description {
+				font-size: 14px;
+				line-height: 18px;
+				font-style: italic;
+				margin-bottom: 15px;
+			}
+
+			.join-social-link {
+				font-size: 14px;
+				padding: 5px;
+				border:1px solid $e-gray;
+				border-radius: 3px;
+				font-style: italic;
+				line-height: 16px;
+			}
+		}
+	}
+}
+
+.content-container {
+	float: left;
+	padding: 1px;
+	width: 900px;
+	
+	.cover {
+		width: 100%;
+		position: relative;
+
+		.cover-image {
+			width: 900px;
+		}
+
+		.blog-link {
+			text-align: right;
+			position: absolute;
+			bottom: 100px;
+			right:0px;
+			font-style: italic;
+
+			.blog-name {
+				float: right;
+				background-color: white;
+				color: black;
+				padding:10px 20px;
+				font-size: 25px;
+			}
+
+			.blog-brief {
+				float:right;
+				clear: both;
+				background-color: black;
+				color:white;
+				padding:10px 20px;
+				font-size:20px;
+			}
+		}
+
+		.photo-by {
+			position: absolute;
+			bottom: 10px;
+			right: 10px;
+			font-size: 10px;
+			padding: 5px 10px;
+			background-color: rgba(255, 255, 255, 0.5);		
+			border-radius: 5px; 
+		}
+	}
+
+	.content-link-wrapper {
+		background-color: $theme-green-light;
+		float: left;
+		width: 100%;
+
+		.content-link {
+			box-sizing: border-box;
+			float: left;
+			width: 25%;
+			padding: 30px 0 20px 20px;
+			border-right: 1px white solid;
+
+			&:last-child {
+				border-right: none;
+			}
+
+			&:hover {
+				background-color: $theme-green-as-background;
+			}			
+		}
+
+		.content-link-name {
+			@extend .headline;
+		}
+		.content-link-brief {
+			font-size: 14px;
+			font-style: italic;
+		}
+	}
+
+	.subscribe {
+		clear:both;
+		overflow: auto;
+		margin-top: 120px;
+		padding:10px 20px;
+		border-top: 1px dashed $e-gray;
+		border-bottom: 1px dashed $e-gray;
+
+		.introduction-wrapper {
+			float: left;
+			.subscription-icon {
+				font-size: 30px;
+				margin-right: 20px;
+			}
+
+			.introduction {
+				display: inline-block;
+				width: 370px;
+				font-style: italic;
+			}
+		}
+		
+
+		.subscribe-form {
+			float:right;
+
+			input[type="text"] {
+				height: 20px;
+				width: 250px;
+				margin-right: 20px;
+			}
+			
+			input[type="button"] {
+				height: 30px;
+				width: 80px;
+				font-size: 20px;
+				font-weight: bold;
+			}
+
+		}
+
+
+	}
+}
+
+
+.more-articles {
+	clear: both;
+	margin-top: 35px;
+
+
+
+	.more-article {
+		
+		float: left;
+		margin-right: 20px;
+		box-sizing: border-box;
+		width: 210px;
+
+		&:last-child {
+			margin-right: 0;
+		}
+
+		.article-headline {
+			text-transform: capitalize;
+			margin: 15px 0px;
+			display: block;
+			font-size: 18px;
+		}
+
+		.brief-content {
+			line-height: 18px;
+			font-size: 15px;
+			margin-bottom: 15px;
+		}
+
+		.article-image {
+			box-sizing: border-box;
+			width: 210px;
+			padding: 10px;
+			border: 1px solid $e-gray;
+		}
+
+		.time {
+			color: $b-gray;
+		}
+		
+								
+	}
+}
+
+.headline {
+	font-size: 20px;
+	text-transform: capitalize;
+}
+
+
+
+

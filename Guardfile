@@ -5,8 +5,11 @@ guard 'livereload' do
   watch('index.html')
   watch('second.html')
   watch('theprestige.html')
+  watch('learntobe.html')
+  watch('foodsense.html')
   watch(%r{stylesheets/.+\.(css)})
   watch(%r{scripts/.+\.(js)})
+
 end
 
 guard :compass

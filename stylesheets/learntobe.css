@@ -1,0 +1,569 @@
+/* line 5, ../../../.rvm/gems/ruby-2.0.0-p451/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../.rvm/gems/ruby-2.0.0-p451/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../.rvm/gems/ruby-2.0.0-p451/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../.rvm/gems/ruby-2.0.0-p451/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../.rvm/gems/ruby-2.0.0-p451/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../.rvm/gems/ruby-2.0.0-p451/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../.rvm/gems/ruby-2.0.0-p451/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../.rvm/gems/ruby-2.0.0-p451/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../.rvm/gems/ruby-2.0.0-p451/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?-qfm1y0");
+  src: url("../fonts/icomoon.eot?#iefix-qfm1y0") format("embedded-opentype"), url("../fonts/icomoon.woff?-qfm1y0") format("woff"), url("../fonts/icomoon.ttf?-qfm1y0") format("truetype"), url("../fonts/icomoon.svg?-qfm1y0#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 12, ../sass/icon.scss */
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 26, ../sass/icon.scss */
+.icon-pencil:before {
+  content: "\e600";
+}
+
+/* line 29, ../sass/icon.scss */
+.icon-profile:before {
+  content: "\e601";
+}
+
+/* line 32, ../sass/icon.scss */
+.icon-tag:before {
+  content: "\e602";
+}
+
+/* line 35, ../sass/icon.scss */
+.icon-barcode:before {
+  content: "\e603";
+}
+
+/* line 38, ../sass/icon.scss */
+.icon-user:before {
+  content: "\e604";
+}
+
+/* line 41, ../sass/icon.scss */
+.icon-users:before {
+  content: "\e605";
+}
+
+/* line 44, ../sass/icon.scss */
+.icon-rocket:before {
+  content: "\e606";
+}
+
+/* line 47, ../sass/icon.scss */
+.icon-numbered-list:before {
+  content: "\e607";
+}
+
+/* line 50, ../sass/icon.scss */
+.icon-steam:before {
+  content: "\e608";
+}
+
+/* line 53, ../sass/icon.scss */
+.icon-mail:before {
+  content: "\e60b";
+}
+
+/* line 56, ../sass/icon.scss */
+.icon-feather:before {
+  content: "\e60c";
+}
+
+/* line 59, ../sass/icon.scss */
+.icon-forward:before {
+  content: "\e60d";
+}
+
+/* line 62, ../sass/icon.scss */
+.icon-share:before {
+  content: "\e60e";
+}
+
+/* line 65, ../sass/icon.scss */
+.icon-star:before {
+  content: "\e60f";
+}
+
+/* line 68, ../sass/icon.scss */
+.icon-thumbsup:before {
+  content: "\e610";
+}
+
+/* line 71, ../sass/icon.scss */
+.icon-search:before {
+  content: "\e611";
+}
+
+/* line 74, ../sass/icon.scss */
+.icon-bell:before {
+  content: "\e612";
+}
+
+/* line 77, ../sass/icon.scss */
+.icon-link:before {
+  content: "\e613";
+}
+
+/* line 80, ../sass/icon.scss */
+.icon-plus:before {
+  content: "\e614";
+}
+
+/* line 83, ../sass/icon.scss */
+.icon-cycle:before {
+  content: "\e615";
+}
+
+/* line 86, ../sass/icon.scss */
+.icon-resize-enlarge:before {
+  content: "\e616";
+}
+
+/* line 89, ../sass/icon.scss */
+.icon-ellipsis:before {
+  content: "\e617";
+}
+
+/* line 92, ../sass/icon.scss */
+.icon-twitter:before {
+  content: "\e609";
+}
+
+/* line 95, ../sass/icon.scss */
+.icon-facebook:before {
+  content: "\e60a";
+}
+
+/* line 20, ../sass/learntobe.scss */
+body {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  background-color: #FCF9F4;
+}
+
+/* line 27, ../sass/learntobe.scss */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 34, ../sass/learntobe.scss */
+header {
+  line-height: 80px;
+  background-color: #FCF9F4;
+}
+/* line 38, ../sass/learntobe.scss */
+header section {
+  display: inline-block;
+}
+/* line 42, ../sass/learntobe.scss */
+header .home-link {
+  height: 80px;
+  width: 150px;
+  display: inline-block;
+  vertical-align: bottom;
+  text-transform: capitalize;
+  background-image: url("../images/logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80% auto;
+}
+/* line 55, ../sass/learntobe.scss */
+header .navigation {
+  font-weight: 100;
+  font-size: 1.6em;
+  border-left: 1px solid #e8e8e8;
+  border-right: 1px solid #e8e8e8;
+}
+/* line 60, ../sass/learntobe.scss */
+header .navigation .navi-link {
+  display: inline-block;
+  padding: 0em 1em;
+  color: #4D4E59;
+}
+/* line 67, ../sass/learntobe.scss */
+header .donate {
+  padding: 0 1em;
+  font-size: 1.6em;
+}
+/* line 70, ../sass/learntobe.scss */
+header .donate .donate-button {
+  padding: 0.5em 2em;
+  border: 1px solid #b8b8b8;
+  border-radius: 0.3em;
+  font-weight: 600;
+}
+
+/* line 79, ../sass/learntobe.scss */
+.main-description {
+  height: 600px;
+  background-image: url(../images/team.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+/* line 87, ../sass/learntobe.scss */
+.main-description .main-headline {
+  margin-bottom: 1em;
+  padding-top: 3.5em;
+  color: white;
+}
+/* line 93, ../sass/learntobe.scss */
+.main-description .whoareyou {
+  color: white;
+  font-family: "Amatic SC", cursive;
+  font-size: 3em;
+  padding: 0.2em 1.5em;
+  border-radius: 0.2em;
+  border: 1px solid white;
+  margin: 0.5em;
+}
+/* line 104, ../sass/learntobe.scss */
+.main-description .iamtutor {
+  background: rgba(255, 255, 255, 0.4);
+  border: rgba(255, 255, 255, 0.4);
+}
+
+/* line 110, ../sass/learntobe.scss */
+.mission {
+  background-color: #FCF9F4;
+}
+/* line 112, ../sass/learntobe.scss */
+.mission .mission-headline {
+  color: black;
+}
+/* line 115, ../sass/learntobe.scss */
+.mission .mission-details {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3em;
+  line-height: 150%;
+  font-weight: 200;
+  width: 72%;
+  margin: 1em auto;
+}
+
+/* line 127, ../sass/learntobe.scss */
+.introduction section {
+  display: inline-block;
+}
+/* line 131, ../sass/learntobe.scss */
+.introduction .role {
+  width: 72%;
+}
+/* line 134, ../sass/learntobe.scss */
+.introduction .role .icon {
+  display: inline-block;
+  width: 50%;
+  font-size: 13em;
+  padding: 0.5em;
+  border-radius: 50%;
+  vertical-align: bottom;
+  background: rgba(0, 0, 0, 0.15);
+  position: relative;
+}
+/* line 145, ../sass/learntobe.scss */
+.introduction .role .role-description {
+  width: 50%;
+  text-align: left;
+  color: white;
+}
+/* line 149, ../sass/learntobe.scss */
+.introduction .role .role-description .role-headline {
+  color: white;
+}
+/* line 153, ../sass/learntobe.scss */
+.introduction .role .role-description .role-details {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2em;
+  margin: 1em 0;
+  line-height: 1.5em;
+  font-weight: 200;
+}
+/* line 160, ../sass/learntobe.scss */
+.introduction .role .role-description .role-action {
+  color: white;
+  font-size: 2em;
+}
+
+/* line 172, ../sass/learntobe.scss */
+.our-progress .progress-headline {
+  margin-bottom: 1em;
+  color: black;
+}
+/* line 177, ../sass/learntobe.scss */
+.our-progress .item {
+  display: inline-block;
+  width: 20%;
+  padding: 5em 1em;
+  margin: 1em;
+  border: 1px #e8e8e8 solid;
+  border-radius: 0.3em;
+}
+/* line 186, ../sass/learntobe.scss */
+.our-progress .item .item-name {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+/* line 191, ../sass/learntobe.scss */
+.our-progress .item .item-data {
+  font-family: "Amatic SC", cursive;
+  font-size: 10em;
+  margin-bottom: 0.5em;
+}
+
+/* line 199, ../sass/learntobe.scss */
+footer {
+  clear: both;
+  padding: 2em;
+  font-size: 1.5em;
+  font-weight: lighter;
+  font-weight: 100;
+  background-color: #4D4E59;
+  color: white;
+}
+
+/* line 210, ../sass/learntobe.scss */
+.row {
+  padding: 10em 0;
+}
+
+/* line 214, ../sass/learntobe.scss */
+.headline, .introduction .role .role-description .role-headline {
+  font-family: "Amatic SC", cursive;
+  font-size: 6em;
+}
+
+/* line 219, ../sass/learntobe.scss */
+.action, .introduction .role .role-description .role-action {
+  display: inline-block;
+  font-size: 2em;
+  font-weight: 600;
+  padding: 0.7em 4em;
+  border-radius: 0.3em;
+  text-transform: capitalize;
+  background: rgba(0, 0, 0, 0.15);
+}
+
+/* line 229, ../sass/learntobe.scss */
+.font-yellow {
+  color: #FFCD62;
+}
+
+/* line 233, ../sass/learntobe.scss */
+.font-green {
+  color: #91D0B1;
+}
+
+/* line 237, ../sass/learntobe.scss */
+.font-blue {
+  color: #80A8CC;
+}
+
+/* line 241, ../sass/learntobe.scss */
+.green-background {
+  background-color: #91D0B1;
+}
+
+/* line 245, ../sass/learntobe.scss */
+.yellow-background {
+  background-color: #FFCD62;
+}
+
+/* line 249, ../sass/learntobe.scss */
+.blue-background {
+  background-color: #80A8CC;
+}
+
+/* line 254, ../sass/learntobe.scss */
+.yellow-border {
+  border-color: #FFCD62;
+}
+
+/* line 258, ../sass/learntobe.scss */
+.left {
+  margin-right: 10em;
+}
+
+@media screen and (max-width: 1100px) {
+  /* line 264, ../sass/learntobe.scss */
+  .navi-link {
+    padding: 0em 0.5em;
+  }
+}
+@media screen and (max-width: 900px) {
+  /* line 270, ../sass/learntobe.scss */
+  .hidden-ipad {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 277, ../sass/learntobe.scss */
+  .main-description {
+    height: 500px;
+  }
+
+  /* line 281, ../sass/learntobe.scss */
+  .item {
+    padding: 3em 1em;
+    margin: -1em 1em;
+    border: none;
+  }
+
+  /* line 287, ../sass/learntobe.scss */
+  .row {
+    padding: 5em 0;
+  }
+
+  /* line 291, ../sass/learntobe.scss */
+  .icon {
+    display: none;
+  }
+
+  /* line 295, ../sass/learntobe.scss */
+  .role {
+    display: block;
+    width: 100%;
+  }
+  /* line 299, ../sass/learntobe.scss */
+  .role .role-description {
+    text-align: center;
+    width: 90%;
+  }
+  /* line 303, ../sass/learntobe.scss */
+  .role .role-description .role-details {
+    font-size: 1.5em;
+    line-height: 1.2em;
+  }
+
+  /* line 310, ../sass/learntobe.scss */
+  .left {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 316, ../sass/learntobe.scss */
+  .navigation {
+    display: none;
+  }
+  /* line 319, ../sass/learntobe.scss */
+  .navigation .donate {
+    display: none;
+  }
+
+  /* line 325, ../sass/learntobe.scss */
+  .main-description {
+    height: 250px;
+  }
+  /* line 327, ../sass/learntobe.scss */
+  .main-description .main-headline {
+    padding-top: 1.5em;
+  }
+  /* line 331, ../sass/learntobe.scss */
+  .main-description .whoareyou {
+    font-size: 2em;
+  }
+
+  /* line 337, ../sass/learntobe.scss */
+  .headline, .introduction .role .role-description .role-headline {
+    font-size: 4em;
+  }
+
+  /* line 341, ../sass/learntobe.scss */
+  .mission-details {
+    font-size: 2em;
+  }
+
+  /* line 345, ../sass/learntobe.scss */
+  .role-action {
+    font-size: 1.5em;
+  }
+
+  /* line 349, ../sass/learntobe.scss */
+  .item {
+    padding: 3em 1em;
+    margin: -1em 1em;
+    border: none;
+  }
+  /* line 353, ../sass/learntobe.scss */
+  .item .item-name {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+  }
+  /* line 358, ../sass/learntobe.scss */
+  .item .item-data {
+    font-family: "Amatic SC", cursive;
+    font-size: 6em;
+    margin-bottom: 0.2em;
+  }
+}

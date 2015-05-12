@@ -1,0 +1,450 @@
+/* line 5, ../../../.rvm/gems/ruby-2.0.0-p451/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../.rvm/gems/ruby-2.0.0-p451/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../.rvm/gems/ruby-2.0.0-p451/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../.rvm/gems/ruby-2.0.0-p451/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../.rvm/gems/ruby-2.0.0-p451/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../.rvm/gems/ruby-2.0.0-p451/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../.rvm/gems/ruby-2.0.0-p451/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../.rvm/gems/ruby-2.0.0-p451/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../.rvm/gems/ruby-2.0.0-p451/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?-qfm1y0");
+  src: url("../fonts/icomoon.eot?#iefix-qfm1y0") format("embedded-opentype"), url("../fonts/icomoon.woff?-qfm1y0") format("woff"), url("../fonts/icomoon.ttf?-qfm1y0") format("truetype"), url("../fonts/icomoon.svg?-qfm1y0#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 12, ../sass/icon.scss */
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 26, ../sass/icon.scss */
+.icon-pencil:before {
+  content: "\e600";
+}
+
+/* line 29, ../sass/icon.scss */
+.icon-profile:before {
+  content: "\e601";
+}
+
+/* line 32, ../sass/icon.scss */
+.icon-tag:before {
+  content: "\e602";
+}
+
+/* line 35, ../sass/icon.scss */
+.icon-barcode:before {
+  content: "\e603";
+}
+
+/* line 38, ../sass/icon.scss */
+.icon-user:before {
+  content: "\e604";
+}
+
+/* line 41, ../sass/icon.scss */
+.icon-users:before {
+  content: "\e605";
+}
+
+/* line 44, ../sass/icon.scss */
+.icon-rocket:before {
+  content: "\e606";
+}
+
+/* line 47, ../sass/icon.scss */
+.icon-numbered-list:before {
+  content: "\e607";
+}
+
+/* line 50, ../sass/icon.scss */
+.icon-steam:before {
+  content: "\e608";
+}
+
+/* line 53, ../sass/icon.scss */
+.icon-mail:before {
+  content: "\e60b";
+}
+
+/* line 56, ../sass/icon.scss */
+.icon-feather:before {
+  content: "\e60c";
+}
+
+/* line 59, ../sass/icon.scss */
+.icon-forward:before {
+  content: "\e60d";
+}
+
+/* line 62, ../sass/icon.scss */
+.icon-share:before {
+  content: "\e60e";
+}
+
+/* line 65, ../sass/icon.scss */
+.icon-star:before {
+  content: "\e60f";
+}
+
+/* line 68, ../sass/icon.scss */
+.icon-thumbsup:before {
+  content: "\e610";
+}
+
+/* line 71, ../sass/icon.scss */
+.icon-search:before {
+  content: "\e611";
+}
+
+/* line 74, ../sass/icon.scss */
+.icon-bell:before {
+  content: "\e612";
+}
+
+/* line 77, ../sass/icon.scss */
+.icon-link:before {
+  content: "\e613";
+}
+
+/* line 80, ../sass/icon.scss */
+.icon-plus:before {
+  content: "\e614";
+}
+
+/* line 83, ../sass/icon.scss */
+.icon-cycle:before {
+  content: "\e615";
+}
+
+/* line 86, ../sass/icon.scss */
+.icon-resize-enlarge:before {
+  content: "\e616";
+}
+
+/* line 89, ../sass/icon.scss */
+.icon-ellipsis:before {
+  content: "\e617";
+}
+
+/* line 92, ../sass/icon.scss */
+.icon-twitter:before {
+  content: "\e609";
+}
+
+/* line 95, ../sass/icon.scss */
+.icon-facebook:before {
+  content: "\e60a";
+}
+
+/* line 22, ../sass/foodsense.scss */
+body {
+  text-align: center;
+}
+
+/* line 26, ../sass/foodsense.scss */
+a {
+  text-decoration: none;
+  color: #35AB97;
+}
+
+/* line 33, ../sass/foodsense.scss */
+.main-container {
+  padding: 4em 1px;
+  display: inline-block;
+  text-align: left;
+}
+
+/* line 41, ../sass/foodsense.scss */
+aside {
+  width: 170px;
+  margin-right: 50px;
+  float: left;
+}
+/* line 47, ../sass/foodsense.scss */
+aside .home-link .logo {
+  max-width: 150px;
+}
+/* line 52, ../sass/foodsense.scss */
+aside .navigation {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+/* line 56, ../sass/foodsense.scss */
+aside .navigation .navi-link {
+  line-height: 45px;
+  font-style: italic;
+}
+/* line 61, ../sass/foodsense.scss */
+aside .navigation .navi-link .navi-icon {
+  color: black;
+  vertical-align: middle;
+  font-size: 30px;
+  margin-right: 0.5em;
+}
+/* line 72, ../sass/foodsense.scss */
+aside .social-links {
+  margin-top: 50px;
+  margin-left: 10px;
+}
+/* line 76, ../sass/foodsense.scss */
+aside .social-links .social-link {
+  margin-bottom: 35px;
+}
+/* line 79, ../sass/foodsense.scss */
+aside .social-links .social-link .social-link-name {
+  font-size: 16px;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  border-bottom: 1px dashed #e8e8e8;
+  margin-bottom: 15px;
+}
+/* line 87, ../sass/foodsense.scss */
+aside .social-links .social-link .social-link-description {
+  font-size: 14px;
+  line-height: 18px;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+/* line 94, ../sass/foodsense.scss */
+aside .social-links .social-link .join-social-link {
+  font-size: 14px;
+  padding: 5px;
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
+  font-style: italic;
+  line-height: 16px;
+}
+
+/* line 106, ../sass/foodsense.scss */
+.content-container {
+  float: left;
+  padding: 1px;
+  width: 900px;
+}
+/* line 111, ../sass/foodsense.scss */
+.content-container .cover {
+  width: 100%;
+  position: relative;
+}
+/* line 115, ../sass/foodsense.scss */
+.content-container .cover .cover-image {
+  width: 900px;
+}
+/* line 119, ../sass/foodsense.scss */
+.content-container .cover .blog-link {
+  text-align: right;
+  position: absolute;
+  bottom: 100px;
+  right: 0px;
+  font-style: italic;
+}
+/* line 126, ../sass/foodsense.scss */
+.content-container .cover .blog-link .blog-name {
+  float: right;
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  font-size: 25px;
+}
+/* line 134, ../sass/foodsense.scss */
+.content-container .cover .blog-link .blog-brief {
+  float: right;
+  clear: both;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+/* line 144, ../sass/foodsense.scss */
+.content-container .cover .photo-by {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 10px;
+  padding: 5px 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+}
+/* line 155, ../sass/foodsense.scss */
+.content-container .content-link-wrapper {
+  background-color: #EFF8F7;
+  float: left;
+  width: 100%;
+}
+/* line 160, ../sass/foodsense.scss */
+.content-container .content-link-wrapper .content-link {
+  box-sizing: border-box;
+  float: left;
+  width: 25%;
+  padding: 30px 0 20px 20px;
+  border-right: 1px white solid;
+}
+/* line 167, ../sass/foodsense.scss */
+.content-container .content-link-wrapper .content-link:last-child {
+  border-right: none;
+}
+/* line 171, ../sass/foodsense.scss */
+.content-container .content-link-wrapper .content-link:hover {
+  background-color: #D9EFEC;
+}
+/* line 179, ../sass/foodsense.scss */
+.content-container .content-link-wrapper .content-link-brief {
+  font-size: 14px;
+  font-style: italic;
+}
+/* line 185, ../sass/foodsense.scss */
+.content-container .subscribe {
+  clear: both;
+  overflow: auto;
+  margin-top: 120px;
+  padding: 10px 20px;
+  border-top: 1px dashed #e8e8e8;
+  border-bottom: 1px dashed #e8e8e8;
+}
+/* line 193, ../sass/foodsense.scss */
+.content-container .subscribe .introduction-wrapper {
+  float: left;
+}
+/* line 195, ../sass/foodsense.scss */
+.content-container .subscribe .introduction-wrapper .subscription-icon {
+  font-size: 30px;
+  margin-right: 20px;
+}
+/* line 200, ../sass/foodsense.scss */
+.content-container .subscribe .introduction-wrapper .introduction {
+  display: inline-block;
+  width: 370px;
+  font-style: italic;
+}
+/* line 208, ../sass/foodsense.scss */
+.content-container .subscribe .subscribe-form {
+  float: right;
+}
+/* line 211, ../sass/foodsense.scss */
+.content-container .subscribe .subscribe-form input[type="text"] {
+  height: 20px;
+  width: 250px;
+  margin-right: 20px;
+}
+/* line 217, ../sass/foodsense.scss */
+.content-container .subscribe .subscribe-form input[type="button"] {
+  height: 30px;
+  width: 80px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* line 231, ../sass/foodsense.scss */
+.more-articles {
+  clear: both;
+  margin-top: 35px;
+}
+/* line 237, ../sass/foodsense.scss */
+.more-articles .more-article {
+  float: left;
+  margin-right: 20px;
+  box-sizing: border-box;
+  width: 210px;
+}
+/* line 244, ../sass/foodsense.scss */
+.more-articles .more-article:last-child {
+  margin-right: 0;
+}
+/* line 248, ../sass/foodsense.scss */
+.more-articles .more-article .article-headline {
+  text-transform: capitalize;
+  margin: 15px 0px;
+  display: block;
+  font-size: 18px;
+}
+/* line 255, ../sass/foodsense.scss */
+.more-articles .more-article .brief-content {
+  line-height: 18px;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+/* line 261, ../sass/foodsense.scss */
+.more-articles .more-article .article-image {
+  box-sizing: border-box;
+  width: 210px;
+  padding: 10px;
+  border: 1px solid #e8e8e8;
+}
+/* line 268, ../sass/foodsense.scss */
+.more-articles .more-article .time {
+  color: #b8b8b8;
+}
+
+/* line 276, ../sass/foodsense.scss */
+.headline, aside .navigation .navi-link, .content-container .content-link-wrapper .content-link-name {
+  font-size: 20px;
+  text-transform: capitalize;
+}
