@@ -407,44 +407,45 @@ aside .social-links .social-link .join-social-link {
 .more-articles {
   clear: both;
   margin-top: 35px;
+  overflow: hidden;
 }
-/* line 238, ../sass/foodsense.scss */
+/* line 239, ../sass/foodsense.scss */
 .more-articles .more-article {
   float: left;
   margin-right: 20px;
   box-sizing: border-box;
   width: 210px;
 }
-/* line 245, ../sass/foodsense.scss */
+/* line 246, ../sass/foodsense.scss */
 .more-articles .more-article:last-child {
   margin-right: 0;
 }
-/* line 249, ../sass/foodsense.scss */
+/* line 250, ../sass/foodsense.scss */
 .more-articles .more-article .article-headline {
   text-transform: capitalize;
   margin: 15px 0px;
   display: block;
   font-size: 18px;
 }
-/* line 256, ../sass/foodsense.scss */
+/* line 257, ../sass/foodsense.scss */
 .more-articles .more-article .brief-content {
   line-height: 18px;
   font-size: 15px;
   margin-bottom: 15px;
 }
-/* line 262, ../sass/foodsense.scss */
+/* line 263, ../sass/foodsense.scss */
 .more-articles .more-article .article-image {
   box-sizing: border-box;
   width: 210px;
   padding: 10px;
   border: 1px solid #e8e8e8;
 }
-/* line 269, ../sass/foodsense.scss */
+/* line 270, ../sass/foodsense.scss */
 .more-articles .more-article .time {
   color: #b8b8b8;
 }
 
-/* line 277, ../sass/foodsense.scss */
+/* line 278, ../sass/foodsense.scss */
 .headline, aside .navigation .navi-link, .content-container .content-link-wrapper .content-link-name {
   font-size: 20px;
   text-transform: capitalize;
